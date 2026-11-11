@@ -26,6 +26,7 @@ app.get('/canchas/:id', (req, res) => {
     res.json(cancha);
 });
 
+
 app.listen(PORT, () => {
     console.log(` 👨‍💻 Servidor krt98 corriendo en http://localhost:${PORT}`);
 });
